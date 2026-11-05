@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Página de perfil</title>
+
+	<link rel="stylesheet" href="../css/style_pag_perfil.css">
+
+	<link rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+	<header class="encabezado">
+
+		<h1>Perfil</h1>
+
+		<nav>
+			<a href="../index.html">Inicio</a>
+			<a href="perfil.html" class="activo">Mi perfil</a>
+			<a href="conexiones.html">Conexiones</a>
+			<a class="btn-sesion" href="../index.html">Cerrar sesión</a>
+		</nav>
+
+	</header>
+
+	<main class="contenedor">
+
+		<section class="perfil">
+
+			<div class="portada"></div>
+
+			<img src="../images/perfil.jpeg"
+				alt="Foto de perfil de Jaime Adasme"
+				class="foto-perfil">
+
+			<div class="datos-perfil">
+
+				<h2>Jaime Adasme</h2>
+
+				<p>
+					<i class="bi bi-geo-alt"></i>
+					Lima, Perú
+				</p>
+
+				<h3>Desarrollador Web</h3>
+
+				<p>
+					Apasionado por el desarrollo web, la tecnología
+					y la creación de nuevas soluciones.
+				</p>
+
+				<div class="contacto-perfil">
+
+					<p>
+						<i class="bi bi-envelope"></i>
+						<a href="mailto:jaime.adasme@cloud.uautonoma.cl">
+							jaime.adasme@cloud.uautonoma.cl
+						</a>
+					</p>
+
+					<p>
+						<i class="bi bi-github"></i>
+						<a href="https://github.com/jadasme"
+							target="_blank">
+							GitHub
+						</a>
+					</p>
+
+					<p>
+						<i class="bi bi-linkedin"></i>
+						<a href="https://www.linkedin.com/in/jaime-adasme-favreau/"
+							target="_blank">
+							LinkedIn
+						</a>
+					</p>
+
+				</div>
+
+				<div class="estadisticas">
+
+					<div>
+						<strong>128</strong>
+						<span>Conexiones</span>
+					</div>
+
+					<div>
+						<strong>12</strong>
+						<span>Proyectos</span>
+					</div>
+
+					<div>
+						<strong>8</strong>
+						<span>Cursos</span>
+					</div>
+
+				</div>
+
+				<a href="editar_perfil.html" class="editar">
+					<i class="bi bi-pencil"></i>
+					Editar perfil
+				</a>
+
+			</div>
+
+		</section>
+
+		<aside class="lateral" id="conexiones">
+
+			<div class="panel">
+
+				<h3>Solicitudes de conexión</h3>
+
+				<div class="usuario solicitud">
+
+					<input type="radio"
+						name="steve"
+						id="steve-aceptar"
+						class="estado-conexion">
+
+					<input type="radio"
+						name="steve"
+						id="steve-rechazar"
+						class="estado-conexion">
+
+					<span class="nombre-usuario">
+						<i class="bi bi-person-circle"></i>
+						Steve Jobs
+					</span>
+
+					<div class="acciones-conexion">
+
+						<label for="steve-aceptar"
+							class="aceptar"
+							title="Aceptar solicitud">
+
+							<i class="bi bi-check-circle"></i>
+
+						</label>
+
+						<label for="steve-rechazar"
+							class="rechazar"
+							title="Rechazar solicitud">
+
+							<i class="bi bi-x-circle"></i>
+
+						</label>
+
+					</div>
+
+					<p class="estado aceptado">
+						<i class="bi bi-check-circle-fill"></i>
+						Solicitud aceptada
+					</p>
+
+					<p class="estado rechazado">
+						<i class="bi bi-x-circle-fill"></i>
+						Solicitud rechazada
+					</p>
+
+				</div>
+
+				<div class="usuario solicitud">
+
+					<input type="radio"
+						name="bill"
+						id="bill-aceptar"
+						class="estado-conexion">
+
+					<input type="radio"
+						name="bill"
+						id="bill-rechazar"
+						class="estado-conexion">
+
+					<span class="nombre-usuario">
+						<i class="bi bi-person-circle"></i>
+						Bill Gates
+					</span>
+
+					<div class="acciones-conexion">
+
+						<label for="bill-aceptar"
+							class="aceptar"
+							title="Aceptar solicitud">
+
+							<i class="bi bi-check-circle"></i>
+
+						</label>
+
+						<label for="bill-rechazar"
+							class="rechazar"
+							title="Rechazar solicitud">
+
+							<i class="bi bi-x-circle"></i>
+
+						</label>
+
+					</div>
+
+					<p class="estado aceptado">
+						<i class="bi bi-check-circle-fill"></i>
+						Solicitud aceptada
+					</p>
+
+					<p class="estado rechazado">
+						<i class="bi bi-x-circle-fill"></i>
+						Solicitud rechazada
+					</p>
+
+				</div>
+
+				<input type="checkbox"
+					id="ver-solicitudes"
+					class="control-ver">
+
+				<div class="solicitudes-extra">
+
+					<div class="usuario solicitud">
+
+						<input type="radio"
+							name="mark"
+							id="mark-aceptar"
+							class="estado-conexion">
+
+						<input type="radio"
+							name="mark"
+							id="mark-rechazar"
+							class="estado-conexion">
+
+						<span class="nombre-usuario">
+							<i class="bi bi-person-circle"></i>
+							Mark Zuckerberg
+						</span>
+
+						<div class="acciones-conexion">
+
+							<label for="mark-aceptar"
+								class="aceptar"
+								title="Aceptar solicitud">
+
+								<i class="bi bi-check-circle"></i>
+
+							</label>
+
+							<label for="mark-rechazar"
+								class="rechazar"
+								title="Rechazar solicitud">
+
+								<i class="bi bi-x-circle"></i>
+
+							</label>
+
+						</div>
+
+						<p class="estado aceptado">
+							<i class="bi bi-check-circle-fill"></i>
+							Solicitud aceptada
+						</p>
+
+						<p class="estado rechazado">
+							<i class="bi bi-x-circle-fill"></i>
+							Solicitud rechazada
+						</p>
+
+					</div>
+
+					<div class="usuario solicitud">
+
+						<input type="radio"
+							name="satya"
+							id="satya-aceptar"
+							class="estado-conexion">
+
+						<input type="radio"
+							name="satya"
+							id="satya-rechazar"
+							class="estado-conexion">
+
+						<span class="nombre-usuario">
+							<i class="bi bi-person-circle"></i>
+							Satya Nadella
+						</span>
+
+						<div class="acciones-conexion">
+
+							<label for="satya-aceptar"
+								class="aceptar"
+								title="Aceptar solicitud">
+
+								<i class="bi bi-check-circle"></i>
+
+							</label>
+
+							<label for="satya-rechazar"
+								class="rechazar"
+								title="Rechazar solicitud">
+
+								<i class="bi bi-x-circle"></i>
+
+							</label>
+
+						</div>
+
+						<p class="estado aceptado">
+							<i class="bi bi-check-circle-fill"></i>
+							Solicitud aceptada
+						</p>
+
+						<p class="estado rechazado">
+							<i class="bi bi-x-circle-fill"></i>
+							Solicitud rechazada
+						</p>
+
+					</div>
+
+				</div>
+
+				<label for="ver-solicitudes"
+					class="ver-mas mostrar-solicitudes">
+
+					<i class="bi bi-chevron-down"></i>
+					Ver todas
+
+				</label>
+
+				<label for="ver-solicitudes"
+					class="ver-mas ocultar-solicitudes">
+
+					<i class="bi bi-chevron-up"></i>
+					Ocultar
+
+				</label>
+
+			</div>
+
+			<div class="panel">
+
+				<h3>Tus conexiones</h3>
+
+				<p>
+					<i class="bi bi-person-circle"></i>
+					Richard Stallman
+				</p>
+
+				<p>
+					<i class="bi bi-person-circle"></i>
+					Linus Torvalds
+				</p>
+
+				<p>
+					<i class="bi bi-person-circle"></i>
+					Ada Lovelace
+				</p>
+
+				<p>
+					<i class="bi bi-person-circle"></i>
+					Grace Hopper
+				</p>
+
+				<input type="checkbox"
+					id="ver-conexiones"
+					class="control-ver">
+
+				<div class="conexiones-extra">
+
+					<p>
+						<i class="bi bi-person-circle"></i>
+						Tim Berners-Lee
+					</p>
+
+					<p>
+						<i class="bi bi-person-circle"></i>
+						Margaret Hamilton
+					</p>
+
+				</div>
+
+				<label for="ver-conexiones"
+					class="ver-mas mostrar-conexiones">
+
+					<i class="bi bi-chevron-down"></i>
+					Ver todas
+
+				</label>
+
+				<label for="ver-conexiones"
+					class="ver-mas ocultar-conexiones">
+
+					<i class="bi bi-chevron-up"></i>
+					Ocultar
+
+				</label>
+
+			</div>
+
+		</aside>
+
+	</main>
+
+</body>
+
+</html>

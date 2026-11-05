@@ -1,0 +1,81 @@
+h1 {
+   text-align: center;
+   color: rebeccapurple;
+   font-size: 50px;
+   font-family: Helvetica;
+}
+
+p {
+   text-align: center;
+   font-family: arial;
+}
+
+.container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.caja_azul {
+   background-color: blue;
+   color: white;
+   padding: 20px;
+   margin: 10px;
+   border-radius: 5px;
+}
+
+.caja_roja {
+   background-color: red;
+   color: white;
+   padding: 20px;
+   margin: 10px;
+   border-radius: 5px;
+}
+
+.caja_verde {
+   background-color: green;
+   color: white;
+   padding: 20px;
+   margin: 10px;
+   border-radius: 5px;
+}
+
+.botones {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 35px;
+   margin-top: 30px;
+}
+
+.btn_buscar {
+   width: 230px;
+   height: 70px;
+   background-color: lightgray;
+   border: 3px solid black;
+   border-radius: 40px;
+   font-size: 24px;
+   cursor: pointer;
+}
+
+.btn_mas {
+   width: 80px;
+   height: 80px;
+   background-color: orange;
+   border: none;
+   border-radius: 40px;
+   font-size: 40px;
+   color: white;
+   cursor: pointer;
+}
+
+.btn_crear {
+   width: 260px;
+   height: 90px;
+   background-color: dodgerblue;
+   color: white;
+   border: none;
+   font-size: 25px;
+   cursor: pointer;
+   box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.5);
+}

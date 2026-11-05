@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	background-color: #f2f5f8;
+}
+.encabezado {
+	background-color: #23395b;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	font-family: Arial, sans-serif;
+}
+
+.encabezado p {
+	margin-bottom: 30px;
+}
+
+
+.encabezado nav {
+	background-color: #355487;
+	padding: 18px;
+}
+
+.encabezado nav a {
+	color: white;
+	text-decoration: none;
+	margin: 0 25px;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 30px auto;
+	padding: 20px;
+	font-family: Arial, sans-serif;	
+}
+
+.contenido {
+	background-color: white;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 3px 12px lightgray;
+}
+
+.presentacion {
+	background-color: #355487;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	border-radius: 8px;
+	margin-bottom: 25px;
+}
+
+
+.presentacion h2 {
+	margin-top: 0;
+}
+
+.tarjetas {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.tarjeta {
+	width: 220px;
+	background-color: #55a5d8;
+	padding: 25px;
+	text-align: center;
+	border-radius: 6px;
+	color: white;
+	box-shadow: 0 3px 8px lightgray;
+}
+
+.tarjeta p {
+	font-weight: normal;
+	line-height: 1.4;
+}
+
+.formulario-contacto {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.formulario-contacto h2 {
+	text-align: center;
+}
+
+.formulario-contacto > p {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.formulario-contacto form div {
+	margin-bottom: 15px;
+}
+
+.formulario-contacto label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.formulario-contacto textarea {
+	height: 120px;
+	resize: vertical;
+}
+
+.formulario-contacto button {
+	background-color: #355487;
+	color: white;
+	border: none;
+	padding: 12px 25px;
+	border-radius: 5px;
+	cursor: pointer;
+}
